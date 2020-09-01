@@ -1,0 +1,16 @@
+{
+  "name": "webpack-mjs-library-export-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "npm run build && node test.mjs"
+  },
+  "author": "Tyler Waters <tyler.waters@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.0.0-beta.29",
+    "webpack-cli": "^3.3.12"
+  }
+}
